@@ -452,7 +452,9 @@ padding-top: 20px;
   top: 0;
   left: 0;
   transform: translateY(100%);
-  transition: transform 250ms linear; 
+  transition-property: transform;
+  transition:  250ms linear; 
+  
 }
  
 .blok-foto{
@@ -556,8 +558,8 @@ color: #FFFFFF;
   padding-top: 20px;
 }
 .footer-icon-link{
-   display: inline-flex;  
-   justify-content: center;
+  display: inline-flex;  
+  justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
